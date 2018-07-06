@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    application-display-name: study
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.3.90:3306/cdm_db?characterEncoding=utf8&allowMultiQueries=true&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: cdm
+    password: cdm
+mybatis:
+  mapper-locations: /repository/*
+
+
